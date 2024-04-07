@@ -1,4 +1,3 @@
-import sys
 from punto3 import generar_valores_exponenciales
 from matplotlib import pyplot as plt
 
