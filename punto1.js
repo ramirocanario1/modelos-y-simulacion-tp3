@@ -5,7 +5,7 @@ const cantidad = 100;
 const ocurrencias = {};
 
 for (let i = 0; i < cantidad; i++) {
-  const valor = Math.floor(Math.random() * 100) + 1; // Generate numbers from 1 to 100
+  const valor = Math.floor(Math.random() * 100) + 1;
   valoresAleatorios.push(valor);
 
   if (ocurrencias[valor]) {
@@ -59,8 +59,8 @@ const chart = new Chart(ctx, {
     scales: {
       y: {
         beginAtZero: true,
-        precision: 0, // Set precision to 0 to display integers on the y-axis
-        stepSize: 1, // Set the step size to 1 for one unit increments on the y-axis
+        precision: 0,
+        stepSize: 1,
       },
     },
   },
